@@ -1,7 +1,7 @@
 import ftplib
 from ftplib import FTP
 
-session = ftplib.FTP('178.159.36.70','necrols','W!?XdH@OUz_.')
+session = ftplib.FTP('IP_ADRESI','FTP_USERNAME','FTP_PASSWORD')
 session.cwd('/public_html')
 file = open('kayitlar.txt','rb')                  # file to send
 session.storbinary('STOR kayitlar.txt', file)     # send the file

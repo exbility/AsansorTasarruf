@@ -4,7 +4,7 @@ Asansörlerin tasarruf edebilmesi için akıllı hareket sistemi.
 
 Raspberry Pi 3 , Python ve PHP kullanılarak yapılmıştır.
 
-Çalışma Videosu Link : 
+Çalışma Videosu Link : https://youtu.be/-qaW-gWuOJQ
 
 Gereksinimler :
 -

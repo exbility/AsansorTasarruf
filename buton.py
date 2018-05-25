@@ -35,8 +35,8 @@ sonbasilan=1 #varsayilan kat
 oncekibasilan=1 #varsayilan kat
 kayitet=0
 
-#url = "https://necrols.co/get_istatistik.php?saat=9"
-url = "https://necrols.co/get_istatistik.php?saat={suankisaat}".format(suankisaat=strftime("%H", gmtime()))
+#url = "https://SITE_ADRESINIZ/get_istatistik.php?saat=9"
+url = "https://SITE_ADRESINIZ/get_istatistik.php?saat={suankisaat}".format(suankisaat=strftime("%H", gmtime()))
 r = requests.get(url)
 if r.status_code == 200:
     sonbasilan=int(r.text)

@@ -7,23 +7,24 @@ Raspberry Pi 3 , Python ve PHP kullanılarak yapılmıştır.
 Çalışma Videosu Link : https://youtu.be/-qaW-gWuOJQ
 
 Gereksinimler :
--
--
+- 1
+- 2
 
 Devre kurulumu yapıldıktan sonra Python ve PHP kodları yazılır.
 
 buton.py dosyası hakkında :
-
+```
 -Ana programımızdır
 
 -Butonları kontrol eder
 
 -Request ile veri çeker
-
+```
 
 senddata.py dosyası hakkında :
-
+```
 -FTP kullanarak uzak sunucuya dosya göndeririz.
+```
 
 Çalışması için Raspberry Pi 3 içinde yapılması gerekenler : 
 
